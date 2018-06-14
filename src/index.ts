@@ -5,6 +5,7 @@ export * from './browser/BrowserQRCodeSvgWriter';
 export { default as HTMLCanvasElementLuminanceSource } from './browser/HTMLCanvasElementLuminanceSource';
 export { default as VideoInputDevice } from './browser/VideoInputDevice';
 export * from './browser/BrowserBarcodeReader';
+export * from './browser/BrowserMultiCodeReader';
 
 // core
 export { default as BarcodeFormat } from './core/BarcodeFormat';

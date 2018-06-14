@@ -63,7 +63,7 @@ const config = (env = 'dev') => {
             library: pascalCase(packageName),
             // libraryExport:  LIB_NAME,
             // will name the AMD module of the UMD build. Otherwise an anonymous define is used.
-            umdNamedDefine: true,
+            // umdNamedDefine: true,
         },
 
         /**
